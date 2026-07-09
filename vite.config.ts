@@ -4,7 +4,7 @@ import path from "path";
 
 // https://vitejs.dev/config/
 export default defineConfig({
-  base: process.env.GITHUB_ACTIONS ? "/DrawValidatorPro/" : "/",
+  base: process.env.GITHUB_ACTIONS ? "/HackathonFinal2026/" : "/",
   server: {
     host: "::",
     port: 8080,
